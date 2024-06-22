@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+ 
+        <head>
+            <meta charset="UTF-8"/>
+            <meta name="description"contents="this is our office"/>
+            <link rel="stylesheet" href="./style.css">
+            <script src="jquery-3.7.1.js"></script>
+            <script src="myfuntion.js"></script>
+            <script>
+               $(document).ready(function(){
+               $("#btf").click(function(){
+                  alert('تم شراء العقار')
+               })
+               $("#submit").click(function(){
+                  $("#myform").fadeToggle();
+               })
+               $("#h1").click(function(){
+                  $("#i1").fadeToggle();
+               })
+               $("#h2").click(function(){
+                  $("#i2").fadeToggle();
+               })
+               $("#h3").click(function(){
+                  $("#i3").fadeToggle();
+               })
+               $("#h4").click(function(){
+                  $("#i4").fadeToggle();
+               })
+               $("#h5").click(function(){
+                  $("#i5").fadeToggle();
+               })
+               $("#h6").click(function(){
+                  $("#i6").fadeToggle();
+               })
+               $("#h7").click(function(){
+                  $("#i7").fadeToggle();
+               })
+               $("#h8").click(function(){
+                  $("#i8").fadeToggle();
+               })
+               $("#h9").click(function(){
+                  $("#i9").fadeToggle();
+               })
+               $("#h10").click(function(){
+                  $("#i10").fadeToggle();
+               })
+            })
+          
+            
+            </script>
+            <title>Real estate office</title>
+       </head>
+        
+
+        <body onload="generate_captcha()">
+         <div class="navigation">
+            <h1 class="logo">Real Estate Office</h1>
+         <a href="index.html">students name</a>         
+         <a href="aboutUs.html">about us</a>
+      </div>
+           <section class="s3_table"></section>
+           <div class="cost3">
+           <table border="2"   >
+                     <thead >
+                        <tr>
+                     <th> المدينة </th>
+                     <th>تفاصيل</th>
+                     <th> الايجار الشهري </th>
+                     <th > اظهار التفاصيل </th>
+                     <th > اختيار </th>
+                    </tr> 
+                     </thead>          
+                    
+                   <tbody>
+                    <tr>
+                         <td>دمشق</td>
+                         <td>شقة 3 غرف مساحة 150 م</td>
+                         <td>450 000 000 ل.س</td>
+                         <td ><input type="checkbox" id="h1"></td>
+                         <td><input type="radio" name="choose" value="1" id="1"></td>
+                    </tr>
+                         <tr  class="hide"   id="i1" >
+                            <td colspan="5"  >
+                                <div class="info" >
+                                    <ul class="text"  >
+                                   <li>المنطقة : المالكي</li>
+                                      <li>متوفر كراج</li>
+                                      <li>الطابق : الرابع</li> 
+                                    <li>الملكية : طابو اخضر</li>
+                                      <li>مساحة بلكون :4 م</li> 
+                                      <li>مفروشة </li> 
+                                    </ul>
+                       <div class="imge">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQB5UOa8UToRP5442BYRywDOKIaXuUz_X5cAfiAFEwlA&s"alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEs4vF0W28kEqPCOUM3bZQl5Zc14b3MOPNrQ&s"alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI0L7Fi6m3FxIRdXUIBmSQFFZWrlmnpXVWQ7000s-GCOwtE2c-iToDihKWOGqrtb40rWM&usqp=CAU"alt="">
+                       </div>
+
+                            </div>  
+                            </td>
+                        
+                         </tr>
+                  
+                     </tbody>
+                     <tr>
+                         <td>دمشق</td>
+                         <td>شقة 5 غرف مساحة 350 م</td>
+                         <td>600 000 000 ل.س</td>
+                         <td><input type="checkbox"id="h2"></td>
+                         <td><input type="radio" name="choose" value="2" id="2"></td>
+                        </tr>
+                        <tr class="hide" id="i2">
+                           <td colspan="5">
+                               <div class="info">
+                                   <ul class="text">
+                                    <li>المنطقة : مزة</li>
+                                     <li>متوفر كراج</li>
+                                     <li>الطابق : الثالث</li> 
+                                     <li>الملكية : طابو اخضر</li>
+                                     <li>مساحة بلكون :2 م</li> 
+                                     <li>غير مفروشة </li> 
+                                   </ul>
+                      <div class="imge">
+           <img src="https://cdn.arabsstock.com/uploads/images/50377/image-50377-interior-design-luxury-residential-complex-rooms-tourist-thumbnail.webp" alt="">
+           <img src="https://cdn.arabsstock.com/uploads/images/50387/image-50387-interior-design-kitchen-inside-apartment-luxury-residentia-thumbnail.webp" alt="">
+           <img src="https://cdn.arabsstock.com/uploads/images/50375/image-50375-interior-design-luxury-residential-complex-rooms-tourist-thumbnail.webp" alt="">
+                      </div>
+                           </div>  
+                           </td>
+                        </tr>
+
+                         <tbody>
+                            <tr>
+                         <td>دمشق</td>
+                         <td>شقة 4 غرف مساحة 200 م</td>
+                         <td>500 000 000 ل.س</td>
+                         <td><input type="checkbox"id="h3"></td>
+                         <td><input type="radio"name="choose" value="3" id="3"></td>
+                        </tr>
+                        <tr class="hide" id="i3">
+                           <td colspan="5">
+                               <div class="info">
+                                   <ul class="text">
+                                     <li>المنطقة : مشروع دمر</li>
+                                     <li>متوفر كراج</li>
+                                     <li>الطابق : الثاني</li>
+                                     <li>الملكية : طابو اخضر</li>
+                                     <li>مساحة بلكون :1 م</li> 
+                                     <li> مفروشة </li>
+                                   </ul>
+                      <div class="imge">
+           <img src="https://img.youm7.com/ArticleImgs/2017/7/20/86976-4.jpg" alt="">
+           <img src="https://www.propertyfinder.eg/blog/wp-content/uploads/2019/05/west-elm-how-to-decorate-with-blue-paint-001-2-800x533.jpg" alt="">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkEChDXbBMNaJEfsS6UCsIO1e75fvkXthxGNAY0vpxKEibSmklyscdSmvhykhp_PMrwlM&usqp=CAU" alt="">
+                      </div>
+                           </div>  
+                           </td>
+                        </tr>
+                     </tbody>
+                     <tr>
+                         <td>دمشق</td>
+                         <td>شقة 7 غرف مساحة 600 م</td>
+                         <td>800 000 000 ل.س</td>
+                         <td><input type="checkbox" id="h4"></td>
+                         <td><input type="radio" name="choose" value="4" id="4"></td>
+                        </tr>
+                        <tr class="hide"  id="i4">
+                           <td colspan="5">
+                               <div class="info">
+                                   <ul class="text">
+                                     <li>المنطقة : كفرسوسة </li>
+                                     <li>متوفر كراج</li>
+                                     <li>الطابق : العاشر</li>
+                                     <li>الملكية : طابو اخضر</li>
+                                     <li>مساحة بلكون :5 م</li> 
+                                     <li> مفروشة </li>
+                                   </ul>
+                      <div class="imge">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmfokz9pye6gXpZ06-Xnh5WPlC94ed23ucf8ecQE-4kg&s" alt="">
+           <img src="https://www.dcsmasr.com/images/jf/360/%D9%82%D8%B3%D9%85/%D8%A7%D9%84%D9%85%D8%B7%D8%A8%D8%AE/%D8%AF%D9%8A_%D8%B3%D9%8A_%D8%A5%D8%B3_%D9%85%D8%B5%D8%B1_%D8%AA%D8%B4%D8%B7%D9%8A%D8%A8_%D8%AA%D8%B5%D9%85%D9%8A%D9%85_%D8%A7%D9%84%D9%85%D8%B7%D8%A8%D8%AE_18.webp" alt="">
+           <img src="https://sobhidecor.com/wp-content/uploads/2020/07/Beautiful-Hotel-Bedroom-For-Minimalist-Home.jpg" alt="">
+                      </div>
+                           </div>  
+                           </td>
+                        </tr>
+                     <tbody>
+                        <tr>
+                         <td>دمشق</td>
+                         <td>شقة 3 غرف مساحة 175 م</td>
+                         <td>450 000 000 ل.س</td>
+                         <td><input type="checkbox" id="h5"></td>
+                         <td><input type="radio" name="choose" value="5" id="5"></td>
+                        </tr>
+                        <tr class="hide" id="i5">
+                           <td colspan="5">
+                               <div class="info">
+                                   <ul class="text">
+                                     <li>المنطقة : مشروع دمر</li>
+                                     <li>متوفر كراج</li>
+                                     <li>الطابق : الثاني</li>
+                                     <li>الملكية : طابو اخضر</li>
+                                     <li>مساحة بلكون :1 م</li> 
+                                     <li> مفروشة </li>
+                                   </ul>
+                      <div class="imge">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPaLuk2-7Z2_SEA77kfcj1VY-TzBE7XbhaOI0LKy8m2Q&s" alt="">
+           <img src="https://static.sayidaty.net/styles/900_scale/public/2023-04/242896.jpg.webp" alt="">
+           <img src="https://images.homify.com/v1437120291/p/photo/image/16634/14-IMG_6584-Edit-__Large_.jpg" alt="">
+                      </div>
+                           </div>  
+                           </td>
+                        </tr>
+                     </tbody>
+                  
+                         <td>دمشق</td>
+                         <td>شقة 6 غرف مساحة 700 م</td>
+                         <td>450 000 000 ل.س</td>
+                         <td><input type="checkbox"id="h6"></td>
+                         <td><input type="radio" name="choose" value="6" id="6"></td>
+                        </tr>
+                        
+                           <tr class="hide"  id="i6">
+                           <td colspan="5" >
+                               <div class="info">
+                                   <ul class="text">
+                                     <li>المنطقة :  ركن الدين</li>
+                                     <li>متوفر كراج</li>
+                                     <li>الطابق : الثاني</li>
+                                     <li>الملكية :جمعية </li>
+                                     <li>مساحة بلكون :3 م</li> 
+                                     <li> غير مفروشة  </li>
+                                   </ul>
+                      <div class="imge">
+           <img src="https://munjazofficial.com/wp-content/uploads/2024/03/4.webp" alt="">
+           <img src="https://aqarystate.com/upload/thumb/crop,800x533,2022-09/a40a9482eecdb620019814e31093d302.jpg" alt="">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkS-LdK_tPIyrAvKoRVH0muTkNCzBQ613XdSB6L2uizg&s" alt="">
+                      </div>
+                           </div>  
+                           </td>
+                        </tr>
+                     <tbody>
+                        <tr>
+                         <td>ريف دمشق</td>
+                         <td>شقة 4 غرف مساحة 530 م</td>
+                         <td>450 000 000 ل.س</td>
+                         <td><input type="checkbox" id="h7"></td>
+                         <td><input type="radio" name="choose" value="7" id="7"></td>
+                        </tr>
+                        <tr class="hide" id="i7">
+                           <td colspan="5">
+                               <div class="info">
+                                   <ul class="text">
+                                     <li>المنطقة :  ضاحية قدسيا  </li>
+                                     <li>غير متوفر  كراج</li>
+                                     <li>الطابق : الثاني</li>
+                                     <li>الملكية :جمعية </li>
+                                     <li>مساحة بلكون :1,5 م</li> 
+                                     <li> غير مفروشة  </li>
+                                   </ul>
+                      <div class="imge">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOzcedixjJuLa5Q4aMHVGD-Ewb67IpS_zYhUgXRH_yhw&s" alt="">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEbgkbUf7pWwwFL-x_VMWTwYcp2aTtQrckCEMBevEY6g&s" alt="">
+           <img src="https://images.bayut.com/thumbnails/681158554-400x300.jpeg" alt="">
+                      </div>
+                           </div>  
+                           </td>
+                        </tr>
+                     </tbody>
+                     <tr>
+                         <td>دمشق</td>
+                         <td>شقة 8 غرف مساحة 600 م</td>
+                         <td>740 000 000 ل.س</td>
+                         <td><input type="checkbox" id="h8"></td>
+                         <td><input type="radio" name="choose" value="8" id="8"></td> 
+                        </tr>
+                        <tr class="hide" id="i8">
+                           <td colspan="5">
+                               <div class="info">
+                                   <ul class="text">
+                                     <li>المنطقة : بلودان  </li>
+                                     <li> متوفر  كراج</li>
+                                     <li> الطابق : الخامس  </li>
+                                     <li>الملكية :طابو اخضر </li>
+                                     <li>مساحة بلكون :4 م</li> 
+                                     <li>  مفروشة  </li>
+                                   </ul>
+                      <div class="imge">
+           <img src="https://i.pinimg.com/736x/e3/e8/02/e3e80233b18846c4ef689b9515914572.jpg" alt="">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRZOmHzt85-qg7B9ST7vpVsgxMghxZlJrpYufzM3aVJg&s" alt="">
+           <img src="https://static.sayidaty.net/styles/900_scale/public/2022-06/118992.jpeg.webp" alt="">
+                      </div>
+                           </div>  
+                           </td>
+                        </tr>
+                         <tbody>
+                            <tr>
+                         <td>دمشق</td>
+                         <td>فيلا 12 غرف مساحة 900 م</td>
+                         <td> ثلاثة مليارات ل.س</td>
+                         <td><input type="checkbox" id="h9"></td>
+                         <td><input type="radio" name="choose" value="9" id="9"></td>
+                        </tr>
+                        <tr class="hide" id="i9">
+                           <td colspan="5">
+                               <div class="info">
+                                   <ul class="text">
+                                     <li>المنطقة :   قرى الاسد   </li>
+                                     <li> متوفر  كراج</li>
+                                     <li> فيلا ثلاث طوابق  </li>
+                                     <li>الملكية :طابو اخضر  </li>
+                                     <li>مساحة تراس :5 م</li> 
+                                     <li> غير مفروشة  </li>
+                                   </ul>
+                      <div class="imge">
+           <img src="https://static.labeb.com/test/images/catalogs/98596/o2bajgj1icf-w234.jpg" alt="">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT181jgKisk5Tda9kwZk8aTzq83nI40FZz8ic9KWHx-vYX5Tfbk0rrxEmZK4fj9RUE8dA&usqp=CAU" alt="">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaSe_goCZm_rRRwOZK_dAPrqxLzLLNxV2QwPAD98yCdw&s" alt="">
+                      </div>
+                           </div>  
+                       
+                        </tr>
+                      </tbody>
+                      
+                       <tbody>
+                        <tr>
+                         <td>دمشق </td>
+                         <td>فيلا 15 غرف مساحة 1دنم</td>
+                         <td>مليارات ل.س 4</td>
+                         <td><input type="checkbox" id="h10"></td>
+                         <td><input type="radio" name="choose" value="10" id="10"></td>
+                        </tr>
+                        <tr class="hide" id="i10">
+                           <td colspan="5">
+                               <div class="info">
+                                   <ul class="text">
+                                     <li>المنطقة :   يعفور   </li>
+                                     <li> متوفر  كراج</li>
+                                     <li>فيلا طابقين  </li>
+                                     <li>الملكية :طابو اخضر </li>
+                                     <li>مساحة تراس :4 م</li> 
+                                     <li>  مفروشة  </li>
+                                   </ul>
+                      <div class="imge">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKYVnYk9Ly2dX8Y03NH6NVQfWti90NDYYjc1H8EbR-Xg&s" alt="">
+           <img src="https://www.almrsal.com/wp-content/uploads/2021/01/Depositphotos_39844179_s-2019.jpg" alt="">
+           <img src="https://static.sayidaty.net/styles/900_scale/public/2023-04/242896.jpg.webp" alt="">
+                      </div>
+                           </div>  
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  </div>
+             
+
+                <button id="submit">متابعة</button>
+
+                <form  id="myform" onsubmit="event.preventDefault(); number_correct(); national(); check_captcha()">
+                  <label for="fn">full name</label>
+                <input type="text" id="fn"  onclick="validateArabicName()"> 
+                <br>
+                 <label for="number">international number</label>
+                <input id="number" type="text" required onclick="national()">
+                <br>
+                <label for="da"> Date of birth</label>
+                <input type="date" id="da">
+                <br>
+                <label for="em">Email</label>
+                <input type="email" id="em" onclick="validateEmail()">
+                <br>
+               <label for="phone">number</label>
+                <input type="number" id="phone" placeholder="995495082" onclick="number_corect()">
+                <br><br>
+               <label id="captcha" class="captcha" name="mycaptcha"></label>
+               <br><br>
+               <input type="text" id="cood_id" placeholder="ادخل رمز التحقق">
+               <input type="button" value="&#128257;" class="emoji" name="refreh_js" onclick="generate_captcha()">
+               <br><br>
+                <button id="btf"  onclick="showPropertyDetails()" >ارسال</button>
+               </form>
+            
+               
+            <script src="jquery-3.7.1.min.js"></script>
+               <script>src="myfuntion.js"</script>
+         </body>
+ </html>
